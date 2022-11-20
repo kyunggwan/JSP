@@ -10,7 +10,7 @@
 </head>
 <body>
     <h2>파일 첨부형 게시판 - 목록 보기(List)</h2>
-
+<%= session.getAttribute("UserName") %> 회원님, 로그인하셨습니다.<br />
     <!-- 검색 폼 -->
     <form method="get">  
     <table border="1" width="90%">
@@ -26,7 +26,7 @@
     </tr>
     </table>
     </form>
-
+  
     <!-- 목록 테이블 -->
     <table border="1" width="90%">
         <tr>
