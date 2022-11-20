@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%
 	int num = 0;
 	//파라미터 넣은 값(num)을 문자열로 받는다.
@@ -24,9 +24,7 @@
 			result = true;
 		}
 	}
-		
-	
-	
+
 %>
 
 <!DOCTYPE html>
@@ -36,7 +34,13 @@
 <title>팩토리얼</title>
 </head>
 <body>
-	<h2> <%=num%>의 팩토리얼 값은 <%=a%>입니다</h2>
-	<h2> <%=num%>의 소수 판별은 <%=result %> </h2>
+	<h2>
+		<%=num%>의 팩토리얼 값은
+		<%=a%>입니다
+	</h2>
+	<h2>
+		<%=num%>의 소수 판별은
+		<%=result %>
+	</h2>
 </body>
 </html>
